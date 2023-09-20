@@ -1,0 +1,23 @@
+* {
+    border: 1px;
+    border-style: solid;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#container {
+    display: flex;
+    height: 207px;
+    width: 207px;
+    flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 0px;
+}
+.sketchBox {
+    height: 50px;
+    width: 50px;
+}
