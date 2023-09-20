@@ -1,23 +1,29 @@
-* {
-    border: 1px;
-    border-style: solid;
-}
-
 body {
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    text-align: center;
 }
 #container {
     display: flex;
-    height: 207px;
-    width: 207px;
+    width: 350px;
     flex-wrap: wrap;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
     gap: 0px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 .sketchBox {
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
+    border:1px;
+    border-style:solid;
+}
+#containerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 15px;
 }
